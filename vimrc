@@ -35,24 +35,24 @@ Bundle 'gmarik/vundle'
 " Commands
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
-Bundle 'duff/vim-bufonly'
+"Bundle 'duff/vim-bufonly'
 " Automatic Helpers
 Bundle 'gregsexton/MatchTag'
 Bundle 'Shougo/neocomplcache'
 " Snippets
-Bundle 'garbas/vim-snipmate'
-Bundle 'honza/snipmate-snippets'
+"Bundle 'garbas/vim-snipmate'
+"Bundle 'honza/snipmate-snippets'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 
 " Language Additions
 "   Ruby
-Bundle 'vim-ruby/vim-ruby'
+"Bundle 'vim-ruby/vim-ruby'
 "Bundle 'tpope/vim-rake'
 "   JavaScript
 Bundle 'pangloss/vim-javascript'
 Bundle 'leshill/vim-json'
-Bundle 'itspriddle/vim-jquery'
-Bundle 'nono/vim-handlebars'
+"Bundle 'itspriddle/vim-jquery'
+"Bundle 'nono/vim-handlebars'
 "   Other Languages
 Bundle 'mutewinter/nginx.vim'
 Bundle 'timcharper/textile.vim'
@@ -138,7 +138,7 @@ set wildmenu           " Turn on WiLd menu
 set hidden             " Change buffer - without saving
 set history=768        " Number of things to remember in history.
 set cf                 " Enable error files & error jumping.
-set clipboard+=unnamed " Yanks go on clipboard instead.
+"set clipboard+=unnamed " Yanks go on clipboard instead.
 set autowrite          " Writes on make/shell commands
 set timeoutlen=350     " Time to wait for a command (after leader for example)
 set foldlevelstart=99  " Remove folds
