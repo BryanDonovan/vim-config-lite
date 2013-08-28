@@ -183,7 +183,8 @@ set t_vb=
 " Mouse
 " ---------------
 set mousehide  " Hide mouse after chars typed
-set mouse=a  " Mouse in all modes
+"set mouse=a  " Mouse in all modes
+set mouse=v
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
