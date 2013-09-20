@@ -49,7 +49,8 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 "Bundle 'vim-ruby/vim-ruby'
 "Bundle 'tpope/vim-rake'
 "   JavaScript
-Bundle 'pangloss/vim-javascript'
+"Bundle 'pangloss/vim-javascript'
+Bundle 'jelera/vim-javascript-syntax'
 Bundle 'leshill/vim-json'
 "Bundle 'itspriddle/vim-jquery'
 "Bundle 'nono/vim-handlebars'
@@ -100,7 +101,7 @@ endif
 " Color
 " ---------------
 set background=dark
-colorscheme twilight_bryan
+colorscheme slate 
 
 " ---------------
 " Backups
